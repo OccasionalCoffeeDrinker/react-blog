@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0px;
+}
+a.button {
+  padding: 5px 10px;
+  border-radius: 5px;;
+  text-decoration: none;
+  color: initial;
+}
+
+#title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 17pt;
+  color:cadetblue;
+}
+#headerNav {
+  background-color:cadetblue;
+  width: 100%;
+  padding: 30px 0px;
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white
+  
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+a:active {
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+#addButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #49797a;
+  color: white;
+  font-size: 20pt;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px
+  
+}
+.generalButton {
+  background-color: #49797a;
+  color: white;
+  font-size: 10pt;
+  padding: 5px 10px;
+  border-radius: 5px;;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px
+
+}
+#dugmeEdit {
+  position: fixed;
+  bottom: 24px;
+  right: 80px;
+  background-color: #49797a;
+  border: 0px
+  
+}
+#dugmeEdit:hover {
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+  border: 1px solid #3c6263
+  
+}
+#addButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.44) 0px 3px 8px;
+  border: 1px solid #3c6263
+
+
+}
+.commonInput {
+  width: 90%;
+}
+
+.content {
+  width: 60%;
+  margin: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: cadetblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+.content  {
+  width: 100%
+}
+}
